@@ -1,0 +1,28 @@
+GIT
+  remote: https://github.com/lifo/cramp.git
+  revision: a311066d747fc6ad9f2cd356b3e501c4e6d91bee
+  ref: a311066d747fc6ad9f2c
+  specs:
+    cramp (0.10.1)
+      activesupport (>= 3.0.0)
+      eventmachine (~> 0.12.10)
+      rack (>= 1.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.3)
+    daemons (1.1.0)
+    eventmachine (0.12.10)
+    rack (1.1.0)
+    thin (1.2.7)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cramp!
+  thin
